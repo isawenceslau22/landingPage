@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Josefin+Slab:ital,wght@0,100..700;1,100..700&display=swap');
+
+*{
+ margin: 0;
+ padding: 0;
+box-sizing: border-box;
+text-decoration: none;
+
+}
+
+
+
+
+
+html{
+   
+      font-family: "Josefin Sans", sans-serif;
+      font-optical-sizing: auto;
+      font-style: normal;
+      background-image: url(../IMG/pexels-freestocks-76942.jpg);
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+    }
+
+    .cabecalho{
+
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        padding: 10px;
+        background-color: rgba(250, 242, 242, 0.5);
+    }   
+
+    .logotipo{
+        width: 200px;
+        padding: 10px;
+
+    }
+
+    .menu{
+
+        display: flex;
+        gap: 180px;
+    }
+
+   .menuitem{
+
+    font-size: 18px;
+    font-weight: 300;
+    padding: 10px;
+}
+
+.menuitem:hover{
+
+    cursor: pointer;
+}
+
+#acesse , #inscreva {
+
+    background-color: rgb(238, 222, 232);
+    border-radius: 10px;
+    font-weight: bold;
+
+}
+
+#acesse:hover , #inscreva:hover{
+
+    background-color: rgba(175, 148, 159, 0.5);
+    border-radius: 10px;
+    background-color: rgb(212, 91, 162);
+} 
+
+.conteudo{
+
+    display: flex;
+    margin-top: 10%;
+    margin-left: 10%;
+    margin-bottom: 10px;
+}   
+
+.conteudoPrincipal{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+#titulo {
+
+    font-size: 40px;
+    font-weight: bold;
+
+}
+
+#subtitulo{
+
+margin-top: 30px;
+font-size: 30px;
+}
+
+.botao{
+
+    margin-top: 20px;
+    width: 250px;
+    height: 50px;
+    background-color: rgba(243, 243, 243, 0.541);
+    border-radius: 10px;
+    border: none;
+    font-size: 18px;
+    color: pink;
+
+}
+
+.botao:hover{
+
+
+    background-color: rgb(32, 50, 66);
+    color: aliceblue;
+
+}
+
+.rodape{
+
+    padding: 10px;
+}
+
+.rodape p{
+
+    text-align: center;
+
+}
